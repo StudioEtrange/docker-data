@@ -8,11 +8,16 @@
 
 for running debian latest :
 
-	docker run -i -t studioetrange/docker-debian:latest bash
+	docker run -i -t studioetrange/docker-debian:latest
 
 for running debian wheezy :
 
-	docker run -i -t studioetrange/docker-debian:wheezy bash
+	docker run -i -t studioetrange/docker-debian:wheezy
+
+## Version and Tag
+
+* Each tag is a different version of debian
+* latest is the latest stable version of debian
 
 ## Instruction 
 
@@ -26,9 +31,9 @@ for running debian wheezy :
 
 	docker pull studioetrange/docker-debian
 
-### run a shell 
+### run a command
 
-	docker run -p SUPERVISOR_HTTP_WEB:9999 studioetrange/docker-debian:DEBIAN_VERSION bash
+	docker run -i -t -p SUPERVISOR_HTTP_WEB:9999 studioetrange/docker-debian:DEBIAN_VERSION COMMAND
 
 ## Access point
 
