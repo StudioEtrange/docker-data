@@ -1,7 +1,6 @@
-FROM tianon/true
+FROM busybox
 MAINTAINER StudioEtrange <nomorgan@gmail.com>
 
 VOLUME /data
 
-CMD ["/true"]
 
